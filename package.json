@@ -1,0 +1,33 @@
+{
+  "name": "discord-bot",
+  "version": "0.0.1",
+  "description": "description",
+  "main": "server.js",
+  "scripts": {
+    "test": "\"cross-env NODE_ENV=test jest --testTimeout=10000 --no-cache --runInBand --coverage --color --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devProgOussou/discord-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Ousmane Fall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devProgOussou/discord-bot/issues"
+  },
+  "homepage": "https://github.com/devProgOussou/discord-bot#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0"
+  }
+}
